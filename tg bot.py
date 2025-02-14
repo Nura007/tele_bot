@@ -15,7 +15,7 @@ facts = [
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Привет! Введи свое имя и ID через пробел (Пример: Иван 12345)")
+    bot.send_message(message.chat.id, "Привет! Введи свое имя и ID через пробел (Пример: Мансур 2010)")
 
 @bot.message_handler(commands=['info'])
 def get_info(message):

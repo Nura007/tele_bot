@@ -23,7 +23,6 @@ def get_info(message):
     else:
         bot.send_message(message.chat.id, "Ты еще не зарегистрировал свои данные. Введи имя и ID через пробел.")
 
-
 @bot.message_handler(commands=['add_schedule'])
 def add_schedule(message):
     user_id = message.chat.id
